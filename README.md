@@ -659,8 +659,11 @@ for name, algorithm in anomaly_algorithms:
              horizontalalignment='right')
     plot_num+=1
 
-plt.show()
+# plt.show()
+plt.savefig('assets/plt_elbow_method.png')
 ```
+
+![ ](assets/plt_elbow_method.png)
 
 Dari hasil plot elbow method di atas telah didapatkan number of components yang
 bisa digunakan, dalam kasus ini digunakan pc=8. Tapi untuk visualisasi nanti
@@ -963,8 +966,11 @@ for name, algorithm in anomaly_algorithms:
              horizontalalignment='right')
     plot_num+=1
 
-plt.show()
+# plt.show()
+plt.savefig('assets/plt_anomaly_1.png')
 ```
+
+![ ](assets/plt_anomaly_1.png)
 
 ```python
 # Dengan menggunakan data ready 2
@@ -1002,8 +1008,11 @@ for name, algorithm in anomaly_algorithms:
              horizontalalignment='right')
     plot_num+=1
 
-plt.show()
+# plt.show()
+plt.savefig('assets/plt_anomaly_2.png')
 ```
+
+![ ](assets/plt_anomaly_2.png)
 
 ```python
 # Dengan menggunakan data ready 3
@@ -1041,8 +1050,11 @@ for name, algorithm in anomaly_algorithms:
              horizontalalignment='right')
     plot_num+=1
 
-plt.show()
+# plt.show()
+plt.savefig('assets/plt_anomaly_3.png')
 ```
+
+![ ](assets/plt_anomaly_3.png)
 
 ___
 
