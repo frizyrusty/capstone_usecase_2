@@ -77,6 +77,12 @@ Dataset memiliki nama kolom dengan deskripsi sebagai berikut :
 - `dest_country_status` : Status kategori dari negara tujuan telepon (COMMON,
 BLACKLIST, dan WHITELIST)
 
+
+
+Dataset yang digunakan bisa diakses pada link google drive berikut ini :
+
+https://drive.google.com/drive/folders/1sFR3uGfThCCJA6IlhomeKntaJKHBUYhO?usp=sharing
+
 ```python
 colname = ['start','end','source_num', 'dest_num', 'access_code', 'org_dest_num', 'duration', 'dest_country', 'dest_country_status']
 data = pd.read_csv('dataset/fraud_pstn_202003.csv', sep='\t', names=colname, parse_dates=['start', 'end'])
